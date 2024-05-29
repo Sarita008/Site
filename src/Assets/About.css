@@ -1,0 +1,61 @@
+.content{
+    font-family:  Armata, sans-serif;;
+}
+.Heading{
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.695);
+    width: 100%;
+}
+.para{
+    font-size: 1.1em;
+    font-weight:400;
+}
+.img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about h3{
+    width: 30%;
+}
+.about p{
+    width: 70%;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.image_main{
+    width: 30%;
+}
+.image_main img{
+    width: 100%;
+}
+.image_main h4{
+    font-size: 0.9em;
+}
+.image_main p{
+    font-size: 0.9em;
+}
+p{
+    font-family:  Roboto, sans-serif;;
+}
+
+@media (max-width:560px) {
+    .about{
+        flex-direction: column;
+    }
+}
