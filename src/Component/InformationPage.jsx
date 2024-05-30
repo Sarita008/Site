@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Assets/Information.css";
+import "../Assets/css/Information.css";
 
 const InformationPage = () => {
   return (
